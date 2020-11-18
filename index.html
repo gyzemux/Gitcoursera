@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>module2-solution</title>
+</head>
+<style >
+	/*basic style*/
+	* {
+		box-sizing: border-box;
+	}
+	body {
+		background-color: white;
+	}
+	h1 {
+		margin: 100px;
+		text-align: center;
+		font-family: Helvetica;
+		font-weight: bold;
+		font-size: 175%;
+	}
+	section {
+		position: relative;
+		padding: 15px;
+		width: 100%;
+	}
+	p {
+		position: relative;
+		clear: right;
+	}
+	div {
+		position: relative;
+		background-color: gray;
+		border: 1px solid black;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+	}
+	.sub1 {
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: white;
+		
+	}
+	.sub2 {
+		float: right;
+		color: white;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: maroon;
+		
+	}
+	.sub3 {
+		color: black;
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: tomato;
+		
+	}
+	.content {
+		padding: 5px;
+		border: none;
+		background-color: gray;
+		font-family: Helvetica;
+		color: black;
+		margin: 0px;
+		height: 200px;
+		overflow: auto;
+	}
+	
+	.row {
+		width: 90%;
+	}
+	
+	/*desktop version*/
+	@media (min-width: 992px){
+		.column-lg-4 {
+			float: left;
+			width: 33.33%;
+		}
+	}
+	/*tablet version*/
+	@media (min-width: 768px) and (max-width: 991px){
+		.colmn-md-6 {
+			float: left;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.colmn-md-12 {
+			float: left;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	/*mobile version*/
+	@media (max-width: 767px){
+		.colmn-sm-12 {
+			float: left;
+			width: 100%;
+		}
+	}
+</style>
+<body >
+<h1>Coursera !!!</h1>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+			<p class="sub1">Section</p>
+			<p class="content">
+			 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam convallis leo a augue tincidunt pulvinar. Quisque id laoreet nulla. Vestibulum nunc sem, posuere vitae sollicitudin ut, hendrerit quis ipsum. Vestibulum purus turpis, vestibulum quis nibh id, accumsan sagittis metus. Sed fermentum elementum imperdiet. Duis id eros mi. Ut interdum ut risus et viverra. Mauris tempus finibus consequat. Morbi rutrum tellus diam, vel rutrum velit feugiat eu. Nam at ligula at mauris vestibulum suscipit ac id ex. Donec blandit condimentum tempus. Nam euismod rhoncus elit, vel vulputate urna accumsan vitae. Sed consequat velit ut felis maximus tincidunt. Duis rutrum tempus elit ac pellentesque.
+			</p>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+			<p class="sub2">Layout</p>
+			<p class="content">Ut sit amet lorem id risus elementum fringilla. Mauris id aliquet arcu. Integer elit quam, hendrerit quis aliquet non, scelerisque nec libero. Pellentesque dui magna, dapibus sit amet venenatis sed, consequat a augue. Suspendisse nunc augue, malesuada vitae pulvinar in, egestas at est. Phasellus consequat lectus in mauris porta, id rhoncus justo rutrum. Donec elementum odio eget bibendum faucibus.</p>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-12 colmn-sm-12">
+	<div>
+		<p class="sub3">Spacing</p>
+			<p class="content">Pellentesque ac urna id eros tincidunt pretium. In bibendum tortor mauris. In ante dui, ullamcorper eu nulla vitae, vehicula molestie elit. Phasellus suscipit nulla quam, sed dictum nisi faucibus sit amet. Nunc placerat sem sed vulputate ornare. Aenean quis lacinia urna. Cras sollicitudin dictum vulputate. Suspendisse leo lacus, mollis nec hendrerit vitae, aliquet sed mi. Quisque finibus hendrerit sem sit amet malesuada. Suspendisse cursus feugiat sollicitudin. Sed molestie maximus nisl, id venenatis lectus accumsan at. Nunc rhoncus tincidunt aliquam. Etiam malesuada dolor faucibus, efficitur ligula feugiat, egestas sem.</p>
+	</div>
+</body>
+</html>
